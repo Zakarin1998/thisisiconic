@@ -4,14 +4,13 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import PinterestIcon from "@mui/icons-material/Pinterest";
-import {white} from "mui/source/styles/colors";
 
 const Contact = () => {
     return (
-        <div>
+        <div className={styles.container}>
             <div>
-                <span>EST. 2016</span>
-                <div>
+                <span className={styles.established}>EST. 2016</span>
+                <div className={styles.icons}>
                     <a href="https://www.facebook.com/thisisiconic" target="_blank" rel="noopener noreferrer">
                         <FacebookIcon />
                     </a>

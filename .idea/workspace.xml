@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73fc4dac-1798-41be-a4aa-ef424079ee43" name="Changes" comment="This Is Iconic Homepage&#10;-Events and Jukebox buttons&#10;-update posters">
-      <change afterPath="$PROJECT_DIR$/thisisiconic/app/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="73fc4dac-1798-41be-a4aa-ef424079ee43" name="Changes" comment="This Is Iconic Homepage&#10;- polished UI&#10;- social buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/E-Commerce-Shop/src/components/Cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/thisisiconic/E-Commerce-Shop/src/components/Cart/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/E-Commerce-Shop/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/thisisiconic/E-Commerce-Shop/src/components/Navbar/Navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thisisiconic/app/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/thisisiconic/app/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thisisiconic/app/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/thisisiconic/app/Events.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thisisiconic/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/thisisiconic/app/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thisisiconic/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/thisisiconic/app/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/thisisiconic/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/thisisiconic/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +79,7 @@
       <workItem from="1684583082217" duration="11975000" />
       <workItem from="1684698061893" duration="2903000" />
       <workItem from="1685224128469" duration="5561000" />
-      <workItem from="1685277860681" duration="5553000" />
+      <workItem from="1685277860681" duration="11786000" />
     </task>
     <task id="LOCAL-00001" summary="This Is Iconic Homepage&#10;-Events and Jukebox buttons&#10;-update posters">
       <created>1684839245188</created>
@@ -93,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684839245188</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="This Is Iconic Homepage&#10;- polished UI&#10;- social buttons">
+      <created>1685287490341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685287490341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="This Is Iconic Homepage&#10;-Events and Jukebox buttons&#10;-update posters" />
-    <option name="LAST_COMMIT_MESSAGE" value="This Is Iconic Homepage&#10;-Events and Jukebox buttons&#10;-update posters" />
+    <MESSAGE value="This Is Iconic Homepage&#10;- polished UI&#10;- social buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="This Is Iconic Homepage&#10;- polished UI&#10;- social buttons" />
   </component>
 </project>

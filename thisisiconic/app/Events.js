@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
-import styles from '@/app/page.module.css';
+import { useState } from 'react';
 import Image from 'next/image';
+import styles from './page.module.css';
 
 function Events() {
     const [selectedEvent, setSelectedEvent] = useState(null);
@@ -8,11 +8,11 @@ function Events() {
     const events = [
         {
             title: 'CINEFORUM 31/05',
-            cover: 'https://i.imgur.com/xkdFGAd.jpg'
+            cover: 'https://i.imgur.com/xkdFGAd.jpg',
         },
         {
             title: 'CONCERTO PERGOLESI 09/06',
-            cover: 'https://i.imgur.com/tSN9aKv.jpg'
+            cover: 'https://i.imgur.com/tSN9aKv.jpg',
         },
     ];
 
@@ -20,15 +20,34 @@ function Events() {
         setSelectedEvent(event);
     };
 
+    const handleClose = () => {
+        setSelectedEvent(null);
+    };
+
     return (
-        <div className={styles.jukebox}>
+        <div className={styles.pageContainer}>
             <h3>Events</h3>
-            <button onClick={() => setSelectedEvent(null)}>Close</button>
-            <div className={styles.songList}>
+            {selectedEvent && (
+                <div className={styles.eventContainer}>
+                    <div className={styles.eventContent}>
+                        <h4 className={styles.eventTitle}>{selectedEvent.title}</h4>
+                        <Image
+                            src={selectedEvent.cover}
+                            alt={selectedEvent.title}
+                            width={640}
+                            height={320}
+                        />
+                        <button className={styles.closeButton} onClick={handleClose}>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            )}
+            <div className={styles.eventList}>
                 {events.map((event, index) => (
                     <div
                         key={index}
-                        className={`${styles.song} ${
+                        className={`${styles.event} ${
                             selectedEvent === event ? styles.selected : ''
                         }`}
                         onClick={() => handleEventSelect(event)}
@@ -38,12 +57,6 @@ function Events() {
                     </div>
                 ))}
             </div>
-            {selectedEvent && (
-                <div className={styles.songDetails}>
-                    <h4>{selectedEvent.title}</h4>
-                    <Image src={selectedEvent.cover} alt={selectedEvent.title} width={300} height={600} />
-                </div>
-            )}
         </div>
     );
 }
