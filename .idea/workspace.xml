@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="73fc4dac-1798-41be-a4aa-ef424079ee43" name="Changes" comment="This Is Iconic Homepage&#10;- polished UI&#10;- social buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,7 @@
       <workItem from="1684698061893" duration="2903000" />
       <workItem from="1685224128469" duration="5561000" />
       <workItem from="1685277860681" duration="13161000" />
-      <workItem from="1685295310883" duration="2885000" />
+      <workItem from="1685295310883" duration="3705000" />
     </task>
     <task id="LOCAL-00001" summary="This Is Iconic Homepage&#10;-Events and Jukebox buttons&#10;-update posters">
       <created>1684839245188</created>
@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685297951696</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="This Is Iconic Homepage&#10;- polished UI&#10;- social buttons">
+      <created>1685298298952</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685298298952</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

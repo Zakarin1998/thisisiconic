@@ -34,6 +34,7 @@ function Page() {
                     A collective of artists and developers passionate about urban style, art, and culture.
                 </p>
                 <Slider />
+                <span></span>
                 <p className={styles.albumTitle}>
                     <a href="https://ogrtorino.it/updates/ogr-you-young-adults-2018-highlights">OGR Live Event</a>
                 </p>
