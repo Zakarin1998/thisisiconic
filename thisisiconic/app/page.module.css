@@ -11,10 +11,28 @@
   --primary-glow: radial-gradient(circle, #6C5DD3 0%, transparent 60%);
   --secondary-glow: radial-gradient(circle, #F5A623 0%, transparent 60%);
   }
+/*TITLE*/
 
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+/* Description */
+.description {
+  font-size: 1rem;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+/* ... Existing CSS code ... */
 /*BUTTON*/
 .button {
-  background-color: mediumseagreen; /* Green background color */
+  background-color: lightslategrey; /* Green background color */
   color: white; /* White text color */
   padding: 10px 20px; /* Adjust padding as needed */
   border: none; /* Remove border */
@@ -24,7 +42,7 @@
 }
 
 .button:hover {
-  background-color: mediumseagreen; /* Darker green color on hover */
+  background-color: lightslategrey; /* Darker green color on hover */
 }
 
 .button:focus {
@@ -32,17 +50,17 @@
 }
 
 .button:active {
-  background-color: mediumseagreen; /* Dark green color when button is pressed */
+  background-color: lightslategrey; /* Dark green color when button is pressed */
 }
 
 /*JUKEBOX*/
 .jukebox {
      width: 500px;
      padding: 20px;
-     background-color: mediumseagreen;
+     background-color: lightslategrey;
      border-radius: 10px;
      text-align: center;
-  margin: 0 auto;
+     margin: 0 auto;
 }
 
 .jukebox h3 {
@@ -52,7 +70,7 @@
 .jukebox button {
   margin-bottom: 10px;
   padding: 5px 10px;
-  background-color: #333;
+  background-color: lightslategrey;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -95,32 +113,26 @@
   width: 100%;
 }
 
-/* Responsive styles */
-@media (max-width: 480px) {
-  .jukebox {
-    width: 100%;
-  }
-}
-
-
 .body {
   margin: 0;
+  background-color: black;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   }
   
-  .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-  }
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-mono);
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+}
   
-  .description {
+.description {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -129,79 +141,79 @@
     max-width: var(--max-width);
     width: 100%;
     font-family: var(--font-mono);
-  }
+}
   
-  .description a {
-  display: flex;
+.description a {
+    display: flex;
     text-align: center;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--primary-color);
-  text-decoration: none;
-  transition: color 200ms;
-  }
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 200ms;
+}
   
-  .description a:hover {
-  color: var(--secondary-color);
-  }
+.description a:hover {
+    color: var(--secondary-color);
+}
   
-  .description p {
-  position: center;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.8);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
-  }
+.description p {
+    position: center;
+    margin: 0;
+    padding: 1rem;
+    background-color: rgba(var(--callout-rgb), 0.8);
+    border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+    border-radius: var(--border-radius);
+}
   
-  .code {
-  font-weight: 700;
-  font-family: var(--font-mono);
-  }
+.code {
+    font-weight: 700;
+    font-family: var(--font-mono);
+}
   
-  .grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
-  width: var(--max-width);
-  max-width: 100%;
-  grid-gap: 2rem;
-  margin-top: 4rem;
-  }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(25%, auto));
+    width: var(--max-width);
+    max-width: 100%;
+    grid-gap: 2rem;
+    margin-top: 4rem;
+}
   
-  .card {
-  padding: 2rem;
-  border-radius: var(--border-radius);
-  background-color: rgba(var(--card-rgb), 0.9);
-  border: 2px solid rgba(var(--card-border-rgb), 0.3);
-  transition: background-color 200ms, border 200ms;
-  }
+.card {
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    background-color: rgba(var(--card-rgb), 0.9);
+    border: 2px solid rgba(var(--card-border-rgb), 0.3);
+    transition: background-color 200ms, border 200ms;
+}
   
-  .card:hover {
+.card:hover {
   background-color: rgba(var(--card-rgb), 0.7);
   border: 2px solid rgba(var(--card-border-rgb), 0.5);
-  }
+}
   
-  .card span {
-  display: inline-block;
-  transition: transform 200ms;
-  }
+.card span {
+    display: inline-block;
+    transition: transform 200ms;
+}
   
-  .card h2 {
+.card h2 {
   font-weight: 600;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  }
+}
   
-  .card p {
+.card p {
   margin: 0;
   opacity: 0.8;
   font-size: 1rem;
   line-height: 1.5;
   max-width: 30ch;
-  }
+}
 
-  .center {
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,6 +316,25 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+
+  .body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    font-family: var(--font-mono);
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+  }
   .content {
     padding: 4rem;
   }
@@ -398,7 +429,7 @@
   }
 
   .slider-buttons button {
-    background-color: #4caf50;
+    background-color: lightslategrey;
     color: white;
     padding: 0.5rem 1rem;
     border: none;
@@ -408,7 +439,7 @@
   }
 
   .slider-buttons button:hover {
-    background-color: #45a049;
+    background-color: lightslategrey;
   }
 }
 

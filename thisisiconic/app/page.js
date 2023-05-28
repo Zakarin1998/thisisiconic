@@ -6,7 +6,12 @@ import Image from 'next/image';
 import Slider from "./Slider";
 import Jukebox from "./Jukebox";
 import Events from "./Events";
+import Contact from "./Contact";
 import { Analytics } from '@vercel/analytics/react';
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import PinterestIcon from "@mui/icons-material/Pinterest";
 
 function Page() {
     const data = [
@@ -29,23 +34,22 @@ function Page() {
     return (
         <div className={styles.main}>
             <head>
-                <title className={styles.title}>THIS IS ICONIC</title>
+                <title className={styles.main}>THIS IS ICONIC</title>
             </head>
-            <body className={styles.body}>
-            <header className={styles.header}>
-                <h1 className={styles.header}>THIS IS ICONIC</h1>
+            <body className={styles.main}>
+            <header className={styles.body}>
+                <h1 className={styles.title}>THIS IS ICONIC</h1>
                 <p className={styles.description}>A collective of artists and developers passionate about urban street art and culture.</p>
 
                 <Slider/>
                 <p className={styles.albumTitle}><a href="https://ogrtorino.it/updates/ogr-you-young-adults-2018-highlights">OGR Live Event</a></p>
             </header>
 
-
             {showEvent ? <Events /> : <button className={styles.button} onClick={handleEventClick}>Events</button>}
 
-            <main className={styles.body}>
-                <section className={styles.header}>
-                    <h2 className={styles.header}>YOWELI</h2>
+            <main className={styles.main}>
+                <section className={styles.body}>
+                    <h2 className={styles.title}>YOWELI</h2>
                     <p className={styles.description}>A rapper known for his deep punchlines.</p>
                     <div className={styles.albums}>
                         <div className={styles.album}>
@@ -63,9 +67,8 @@ function Page() {
                     </div>
                 </section>
 
-
-                <section className={styles.header}>
-                    <h2 className={styles.header}>DUE LIBRI</h2>
+                <section className={styles.body}>
+                    <h2 className={styles.title}>DUE LIBRI</h2>
                     <p className={styles.description}>Francesco and Massimiliano writings and reviews about cinema, music, love and much more</p>
                     <div className={styles.albums}>
                         <div className={styles.album}>
@@ -76,9 +79,16 @@ function Page() {
                         </div>
                     </div>
                 </section>
+
+                <span></span>
+
                 {showJukebox ? <Jukebox /> : <button className={styles.button} onClick={handleJukeboxClick}>Jukebox</button>}
+
             </main>
+
             </body>
+
+            <Contact />
             <Analytics />
         </div>
     );

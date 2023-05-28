@@ -24,7 +24,7 @@ function Events() {
         <div className={styles.jukebox}>
             <h3>Events</h3>
             <button onClick={() => setSelectedEvent(null)}>Close</button>
-            <div className={styles.eventList}>
+            <div className={styles.songList}>
                 {events.map((event, index) => (
                     <div
                         key={index}
@@ -39,9 +39,9 @@ function Events() {
                 ))}
             </div>
             {selectedEvent && (
-                <div className={styles.eventDetails}>
+                <div className={styles.songDetails}>
                     <h4>{selectedEvent.title}</h4>
-                    <Image src={selectedEvent.cover} alt={selectedEvent.title} width={350} height={700} />
+                    <Image src={selectedEvent.cover} alt={selectedEvent.title} width={300} height={600} />
                 </div>
             )}
         </div>
