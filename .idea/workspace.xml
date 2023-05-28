@@ -5,49 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73fc4dac-1798-41be-a4aa-ef424079ee43" name="Changes" comment="This Is Iconic Homepage&#10;- polished UI&#10;- social buttons">
-      <change afterPath="$PROJECT_DIR$/.vercel/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vercel/project.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/I_Knew_a_Guy.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jukebox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/SAN_DIMAS_OASIS.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Youll_Never_Work_In_This_Town_Again.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/page.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/Contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/Events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/I_Knew_a_Guy.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/Jukebox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/SAN_DIMAS_OASIS.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/Slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/Youll_Never_Work_In_This_Town_Again.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/app/page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thisisiconic/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +78,7 @@
       <workItem from="1684698061893" duration="2903000" />
       <workItem from="1685224128469" duration="5561000" />
       <workItem from="1685277860681" duration="13161000" />
-      <workItem from="1685295310883" duration="1839000" />
+      <workItem from="1685295310883" duration="2280000" />
     </task>
     <task id="LOCAL-00001" summary="This Is Iconic Homepage&#10;-Events and Jukebox buttons&#10;-update posters">
       <created>1684839245188</created>
@@ -142,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685293869918</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="This Is Iconic Homepage&#10;- polished UI&#10;- social buttons">
+      <created>1685297211558</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685297211558</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

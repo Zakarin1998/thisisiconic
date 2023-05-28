@@ -208,57 +208,47 @@
 
 /* Slider styles */
 
-.slider {
-    max-width: 100%;
-    overflow: hidden;
+.sliderContainer {
     position: relative;
-}
-
-.slider img {
     width: 100%;
-    height: auto;
+    max-height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
-/* Apply different styles for screens with a maximum width of 700px */
-@media (max-width: 700px) {
-    .slider img {
-        max-width: 100%;
-        height: auto;
-    }
+.sliderImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.slider-controls {
+.sliderButtons {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    padding: 0 20px;
 }
 
-.slider-control {
-    background-color: rgba(0, 0, 0, 0.3);
+.sliderButtons button {
+    background-color: #808080;
     color: #fff;
     border: none;
-    font-size: 24px;
-    padding: 5px;
+    padding: 10px;
+    font-size: 16px;
     cursor: pointer;
 }
 
-.slider-control:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+.sliderButtons button:hover {
+    background-color: #666;
 }
 
-.slider-control:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
+.sliderButtons button:first-child {
+    margin-right: 10px;
 }
 
-.slider-control.left {
+.sliderButtons button:last-child {
     margin-left: 10px;
 }
 
-.slider-control.right {
-    margin-right: 10px;
-}
