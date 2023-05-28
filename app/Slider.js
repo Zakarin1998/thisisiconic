@@ -21,13 +21,13 @@ function Slider() {
     };
 
     return (
-        <div className="slider-container">
+        <div className={styles.sliderContainer}>
             <img
-                className="slider-image"
+                className={styles.sliderImage}
                 src={images[currentImageIndex]}
                 alt="slider"
             />
-            <div className="slider-buttons">
+            <div className={styles.sliderButtons}>
                 <button className={styles.button} onClick={handlePrevClick}>{"<"}</button>
                 <button className={styles.button} onClick={handleNextClick}>{">"}</button>
             </div>
