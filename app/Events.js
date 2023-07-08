@@ -11,8 +11,12 @@ function Events() {
             cover: 'https://i.imgur.com/xkdFGAd.jpg',
         },
         {
-            title: 'CONCERTO PERGOLESI 09/06',
+            title: 'PERGOLESI 09/06',
             cover: 'https://i.imgur.com/tSN9aKv.jpg',
+        },
+        {
+            title: 'AVIGLIANA 16/07',
+            cover: 'https://i.imgur.com/SQo58DO.jpg',
         },
     ];
 
@@ -34,8 +38,8 @@ function Events() {
                         <Image
                             src={selectedEvent.cover}
                             alt={selectedEvent.title}
-                            width={640}
-                            height={320}
+                            width={350}
+                            height={670}
                         />
                         <button className={styles.closeButton} onClick={handleClose}>
                             Close
