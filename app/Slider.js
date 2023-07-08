@@ -3,7 +3,7 @@ import styles from './page.module.css';
 
 const images = [
     "https://i.imgur.com/FNzOpU4.jpg",
-    "https://i.imgur.com/THyujY3.jpg",
+    "https://i.imgur.com/8yap13r.jpg",
     "https://i.imgur.com/md36op3.jpg",
 ];
 
