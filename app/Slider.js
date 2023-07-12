@@ -6,6 +6,7 @@ const images = [
     "https://i.imgur.com/8yap13r.jpg",
     "https://i.imgur.com/md36op3.jpg",
     "https://i.imgur.com/472dGkU.jpg",
+    "https://i.imgur.com/WYbc0AI.jpg",
 ];
 
 function Slider() {
