@@ -17,8 +17,8 @@ function Page() {
 
     
     const data2 = [
-        'https://imgur.com/gallery/3HIUotS',
-        'https://imgur.com/gallery/kN4hpwl',
+        'https://i.imgur.com/Knetryd.jpg',
+        'https://i.imgur.com/QlcTJf0.jpeg',
     ];
 
     const [showJukebox, setShowJukebox] = useState(false);
