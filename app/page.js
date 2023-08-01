@@ -15,6 +15,12 @@ function Page() {
         'https://i1.sndcdn.com/artworks-000189016510-64nqy2-t500x500.jpg',
     ];
 
+    
+    const data2 = [
+        'https://imgur.com/gallery/3HIUotS',
+        'https://imgur.com/gallery/kN4hpwl',
+    ];
+
     const [showJukebox, setShowJukebox] = useState(false);
     const [showEvent, setShowEvent] = useState(false);
 
@@ -66,6 +72,23 @@ function Page() {
                         ))}
                     </div>
                 </section>
+
+                <section className={styles.section}>
+                    <h2 className={styles.sectionTitle}>MAINE</h2>
+                    <p className={styles.sectionDescription}>New EP Solo out now on Spotify!</p>
+                    <div className={styles.albums}>
+                        {data2.map((imageUrl, index) => (
+                            <div className={styles.album} key={index}>
+                                <a href="https://open.spotify.com/track/4Pv2yX4XYevPPp57hrQrcD?si=1be98799e62547c0">
+                                    <Image src={imageUrl} alt="Album Cover" width={500} height={500} />
+                                </a>
+                                <p className={styles.albumTitle}>
+                                    <a href="https://open.spotify.com/track/4Pv2yX4XYevPPp57hrQrcD?si=1be98799e62547c0">Solo - Maine</a>
+                                </p>
+                            </div>
+                        ))}
+                    </div>
+                </section>        
 
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>DUE LIBRI</h2>
