@@ -63,7 +63,7 @@ function Page() {
                         {data.map((imageUrl, index) => (
                             <div className={styles.album} key={index}>
                                 <a href="https://soundcloud.com/jtheamphibian/sets/ghetto-jukebox">
-                                    <Image src={imageUrl} alt="Album Cover" width={500} height={500} />
+                                    <Image src={imageUrl} alt="Album Cover" width={450} height={450} />
                                 </a>
                                 <p className={styles.albumTitle}>
                                     <a href="https://soundcloud.com/jtheamphibian/sets/ghetto-jukebox">Yoweli</a>
@@ -80,7 +80,7 @@ function Page() {
                         {data2.map((imageUrl, index) => (
                             <div className={styles.album} key={index}>
                                 <a href="https://open.spotify.com/track/4Pv2yX4XYevPPp57hrQrcD?si=1be98799e62547c0">
-                                    <Image src={imageUrl} alt="Album Cover" width={500} height={500} />
+                                    <Image src={imageUrl} alt="Album Cover" width={450} height={450} />
                                 </a>
                                 <p className={styles.albumTitle}>
                                     <a href="https://open.spotify.com/track/4Pv2yX4XYevPPp57hrQrcD?si=1be98799e62547c0">Maine</a>
@@ -98,7 +98,7 @@ function Page() {
                     <div className={styles.albums}>
                         <div className={styles.album}>
                             <a href="https://duelibri.home.blog">
-                                <Image src="https://i.imgur.com/xZsRfMj.png" alt="Due Libri" width={500} height={500} />
+                                <Image src="https://i.imgur.com/xZsRfMj.png" alt="Due Libri" width={450} height={450} />
                             </a>
                             <p className={styles.albumTitle}>
                                 <a href="https://duelibri.home.blog">Due Libri</a>
