@@ -42,7 +42,7 @@ function Page() {
                 <Slider />
                 <span></span>
                 <p className={styles.albumTitle}>
-                    <a href="https://ogrtorino.it/updates/ogr-you-young-adults-2018-highlights">OGR Live Event</a>
+                    <a href="https://ogrtorino.it/updates/ogr-you-young-adults-2018-highlights">OGR Live</a>
                 </p>
             </header>
 
@@ -66,7 +66,7 @@ function Page() {
                                     <Image src={imageUrl} alt="Album Cover" width={500} height={500} />
                                 </a>
                                 <p className={styles.albumTitle}>
-                                    <a href="https://soundcloud.com/jtheamphibian/sets/ghetto-jukebox">Ghetto Jukebox</a>
+                                    <a href="https://soundcloud.com/jtheamphibian/sets/ghetto-jukebox">Yoweli</a>
                                 </p>
                             </div>
                         ))}
@@ -83,7 +83,7 @@ function Page() {
                                     <Image src={imageUrl} alt="Album Cover" width={500} height={500} />
                                 </a>
                                 <p className={styles.albumTitle}>
-                                    <a href="https://open.spotify.com/track/4Pv2yX4XYevPPp57hrQrcD?si=1be98799e62547c0">Solo - Maine</a>
+                                    <a href="https://open.spotify.com/track/4Pv2yX4XYevPPp57hrQrcD?si=1be98799e62547c0">Maine</a>
                                 </p>
                             </div>
                         ))}
