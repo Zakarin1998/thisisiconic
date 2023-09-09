@@ -4,14 +4,6 @@ body, html {
     overflow: hidden;
 }
 
-.container {
-    perspective: 1000px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cube {
     position: relative;
     width: 200px;
