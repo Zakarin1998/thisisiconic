@@ -5,6 +5,7 @@ import Slider from './Slider';
 import Jukebox from './Jukebox';
 import Events from './Events';
 import Contact from './Contact';
+import RotatingCube from './RotatingCube'; // Import the RotatingCube component
 import { Analytics } from '@vercel/analytics/react';
 import { MusicNote, Event } from '@mui/icons-material';
 import styles from './page.module.css';
@@ -35,7 +36,7 @@ function Page() {
     return (
         <div className={styles.main}>
             <header className={styles.body}>
-                <h1 className={styles.title}>THIS IS ICONIC</h1>
+                <RotatingCube />
                 <p className={styles.description}>
                     A collective of artists and developers passionate about urban style, art, and culture.
                 </p>
