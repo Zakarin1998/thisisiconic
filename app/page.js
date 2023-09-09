@@ -36,7 +36,9 @@ function Page() {
     return (
         <div className={styles.main}>
             <header className={styles.body}>
-                <RotatingCube />
+                <div className={styles.centered}>
+                  <RotatingCube />
+                </div>
                 <p className={styles.description}>
                     A collective of artists and developers passionate about urban style, art, and culture.
                 </p>
