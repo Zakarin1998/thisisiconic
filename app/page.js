@@ -36,9 +36,7 @@ function Page() {
     return (
         <div className={styles.main}>
             <header className={styles.body}>
-                <div className={styles.centered}>
-                  <RotatingCube />
-                </div>
+                <h1>THIS IS ICONIC</h1>
                 <p className={styles.description}>
                     A collective of artists and developers passionate about urban style, art, and culture.
                 </p>
