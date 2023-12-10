@@ -42,13 +42,14 @@ function Page() {
 
     const data3 = [
         {
-            imageUrl: 'https://i.imgur.com/Knetryd.jpg',
+            imageUrl: 'https://i.imgur.com/SmRPdVC.jpeg',
             albumLink: 'https://open.spotify.com/intl-it/track/0mmXpWp0ESNFDPaM9RofoR',
         },
         {
-            imageUrl: 'https://i.imgur.com/QlcTJf0.jpeg',
-            albumLink: 'https://open.spotify.com/intl-it/album/5Cs9IfJBpxfQfexOQHNpAG',
+            imageUrl: 'https://i.imgur.com/VJ07uzG.jpeg',
+            albumLink: 'https://open.spotify.com/intl-it/track/2mvQhhTbK2GRkOFklggmSd',
         },
+    ];
 
     const [showJukebox, setShowJukebox] = useState(false);
     const [showEvent, setShowEvent] = useState(false);
@@ -83,7 +84,8 @@ function Page() {
                     Events
                 </button>
             )}
-            <!--YOWELI-->
+
+
             <main className={styles.main}>
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>YOWELI</h2>
@@ -101,7 +103,7 @@ function Page() {
                         ))}
                     </div>
                 </section>
-                <!--MAINE-->
+
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>MAINE</h2>
                     <p className={styles.sectionDescription}>New EP Solo out now on Spotify!</p>
@@ -117,8 +119,8 @@ function Page() {
                             </div>
                         ))}
                     </div>
-                </section>        
-                <!--DUE LIBRI-->
+                </section>
+
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>DUE LIBRI</h2>
                     <p className={styles.sectionDescription}>
@@ -135,12 +137,12 @@ function Page() {
                         </div>
                     </div>
                 </section>
-                <!--EL MALDITO-->
+
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>EL MALDITO</h2>
                     <p className={styles.sectionDescription}>Gringo ti offre un Brindisi</p>
                     <div className={styles.albums}>
-                        {data2.map((album, index) => (
+                        {data3.map((album, index) => (
                             <div className={styles.album} key={index}>
                                 <a href={album.albumLink}>
                                     <Image src={album.imageUrl} alt="Album Cover" width={500} height={500} />
