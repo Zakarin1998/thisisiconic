@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73fc4dac-1798-41be-a4aa-ef424079ee43" name="Changes" comment="This Is Iconic Homepage&#10;- polished UI&#10;- social buttons" />
+    <list default="true" id="73fc4dac-1798-41be-a4aa-ef424079ee43" name="Changes" comment="This Is Iconic Homepage&#10;- polished UI&#10;- social buttons">
+      <change afterPath="$PROJECT_DIR$/THIS IS ICONIC.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +81,7 @@
       <workItem from="1685224128469" duration="5561000" />
       <workItem from="1685277860681" duration="13161000" />
       <workItem from="1685295310883" duration="4995000" />
+      <workItem from="1702241168202" duration="2304000" />
     </task>
     <task id="LOCAL-00001" summary="This Is Iconic Homepage&#10;-Events and Jukebox buttons&#10;-update posters">
       <created>1684839245188</created>

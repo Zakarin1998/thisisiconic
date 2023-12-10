@@ -11,16 +11,44 @@ import { MusicNote, Event } from '@mui/icons-material';
 import styles from './page.module.css';
 
 function Page() {
+    // Add more objects for additional albums if needed
     const data = [
-        'https://i1.sndcdn.com/artworks-000528858486-h4r3ui-t500x500.jpg',
-        'https://i1.sndcdn.com/artworks-000189016510-64nqy2-t500x500.jpg',
+        {
+            imageUrl: 'https://i1.sndcdn.com/artworks-000528858486-h4r3ui-t500x500.jpg',
+            albumLink: 'https://soundcloud.com/jtheamphibian/sets/ghetto-jukebox',
+        },
+        {
+            imageUrl: 'https://i1.sndcdn.com/artworks-000189016510-64nqy2-t500x500.jpg',
+            albumLink: 'https://soundcloud.com/jtheamphibian/sets/per-quando-sono-giu',
+        },
+        // Add more objects for additional albums if needed
     ];
 
     
     const data2 = [
-        'https://i.imgur.com/Knetryd.jpg',
-        'https://i.imgur.com/QlcTJf0.jpeg',
+        {
+            imageUrl: 'https://i.imgur.com/Knetryd.jpg',
+            albumLink: 'https://open.spotify.com/intl-it/track/34oGKxhWDLsk23ENTZHWrN',
+        },
+        {
+            imageUrl: 'https://i.imgur.com/QlcTJf0.jpeg',
+            albumLink: 'https://open.spotify.com/intl-it/album/56ctEJiaRo4rUKTtR22Gw3',
+        },
+        {
+            imageUrl: 'https://i.imgur.com/Pl1SBb5.jpeg',
+            albumLink: 'https://open.spotify.com/intl-it/track/4pBMFtuMQhQhOsZrIz0y8a?si=196e6ac4631f46cb'
+        },
     ];
+
+    const data3 = [
+        {
+            imageUrl: 'https://i.imgur.com/Knetryd.jpg',
+            albumLink: 'https://open.spotify.com/intl-it/track/0mmXpWp0ESNFDPaM9RofoR',
+        },
+        {
+            imageUrl: 'https://i.imgur.com/QlcTJf0.jpeg',
+            albumLink: 'https://open.spotify.com/intl-it/album/5Cs9IfJBpxfQfexOQHNpAG',
+        },
 
     const [showJukebox, setShowJukebox] = useState(false);
     const [showEvent, setShowEvent] = useState(false);
@@ -55,42 +83,42 @@ function Page() {
                     Events
                 </button>
             )}
-
+            <!--YOWELI-->
             <main className={styles.main}>
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>YOWELI</h2>
                     <p className={styles.sectionDescription}>Listen to his deep punchlines on Soundcloud.</p>
                     <div className={styles.albums}>
-                        {data.map((imageUrl, index) => (
+                        {data.map((album, index) => (
                             <div className={styles.album} key={index}>
-                                <a href="https://soundcloud.com/jtheamphibian/sets/ghetto-jukebox">
-                                    <Image src={imageUrl} alt="Album Cover" width={450} height={450} />
+                                <a href={album.albumLink}>
+                                    <Image src={album.imageUrl} alt="Album Cover" width={500} height={500} />
                                 </a>
                                 <p className={styles.albumTitle}>
-                                    <a href="https://soundcloud.com/jtheamphibian/sets/ghetto-jukebox">Yoweli</a>
+                                    <a href={album.albumLink}>View Album</a>
                                 </p>
                             </div>
                         ))}
                     </div>
                 </section>
-
+                <!--MAINE-->
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>MAINE</h2>
                     <p className={styles.sectionDescription}>New EP Solo out now on Spotify!</p>
                     <div className={styles.albums}>
-                        {data2.map((imageUrl, index) => (
+                        {data2.map((album, index) => (
                             <div className={styles.album} key={index}>
-                                <a href="https://open.spotify.com/track/4Pv2yX4XYevPPp57hrQrcD?si=1be98799e62547c0">
-                                    <Image src={imageUrl} alt="Album Cover" width={450} height={450} />
+                                <a href={album.albumLink}>
+                                    <Image src={album.imageUrl} alt="Album Cover" width={500} height={500} />
                                 </a>
                                 <p className={styles.albumTitle}>
-                                    <a href="https://open.spotify.com/track/4Pv2yX4XYevPPp57hrQrcD?si=1be98799e62547c0">Maine</a>
+                                    <a href={album.albumLink}>View Album</a>
                                 </p>
                             </div>
                         ))}
                     </div>
                 </section>        
-
+                <!--DUE LIBRI-->
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>DUE LIBRI</h2>
                     <p className={styles.sectionDescription}>
@@ -105,6 +133,23 @@ function Page() {
                                 <a href="https://duelibri.home.blog">Due Libri</a>
                             </p>
                         </div>
+                    </div>
+                </section>
+                <!--EL MALDITO-->
+                <section className={styles.section}>
+                    <h2 className={styles.sectionTitle}>EL MALDITO</h2>
+                    <p className={styles.sectionDescription}>Gringo ti offre un Brindisi</p>
+                    <div className={styles.albums}>
+                        {data2.map((album, index) => (
+                            <div className={styles.album} key={index}>
+                                <a href={album.albumLink}>
+                                    <Image src={album.imageUrl} alt="Album Cover" width={500} height={500} />
+                                </a>
+                                <p className={styles.albumTitle}>
+                                    <a href={album.albumLink}>View Album</a>
+                                </p>
+                            </div>
+                        ))}
                     </div>
                 </section>
 
