@@ -51,34 +51,6 @@ function Page() {
         },
     ];
 
-    const data4 = [
-        {
-            title: 'IN DOWN',
-            imageUrl: 'https://i.imgur.com/5SL4Zoc.jpg',
-            albumLink: 'https://open.spotify.com/intl-it/track/6hq2vhkkTHeb2sNbKwBcoE',
-        },
-        {
-            title: 'Jupiter',
-            imageUrl: 'https://i.imgur.com/sumtQ90.jpeg',
-            albumLink: 'https://open.spotify.com/intl-it/track/0QF3YRRhS6rZBi3w61HsJZ',
-        },
-        {
-            title: 'Ragnatele',
-            imageUrl: 'https://i.imgur.com/uLAO0E2.jpeg',
-            albumLink: 'https://open.spotify.com/intl-it/track/3hLt0VJ45UCVSswy1BFrym',
-        },
-        {
-            title: 'Soli',
-            imageUrl: 'https://i.imgur.com/PHWW1HF.jpeg',
-            albumLink: 'https://open.spotify.com/intl-it/track/04IC76W9R3SnPWBMtofMf3',
-        },
-        {
-            title: 'Nubi',
-            imageUrl: 'https://i.imgur.com/1R2C698.jpeg',
-            albumLink: 'https://open.spotify.com/intl-it/track/3Nx728olnFvBHfOQN75ccE',
-        }                
-    ];
-
     const [showJukebox, setShowJukebox] = useState(false);
     const [showEvent, setShowEvent] = useState(false);
 
@@ -171,23 +143,6 @@ function Page() {
                     <p className={styles.sectionDescription}>Gringo ti offre un Brindisi</p>
                     <div className={styles.albums}>
                         {data3.map((album, index) => (
-                            <div className={styles.album} key={index}>
-                                <a href={album.albumLink}>
-                                    <Image src={album.imageUrl} alt="Album Cover" width={500} height={500} />
-                                </a>
-                                <p className={styles.albumTitle}>
-                                    <a href={album.albumLink}>View Album</a>
-                                </p>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-
-                <section className={styles.section}>
-                    <h2 className={styles.sectionTitle}>VAS</h2>
-                    <p className={styles.sectionDescription}>Introspezione e talento unico</p>
-                    <div className={styles.albums}>
-                        {data4.map((album, index) => (
                             <div className={styles.album} key={index}>
                                 <a href={album.albumLink}>
                                     <Image src={album.imageUrl} alt="Album Cover" width={500} height={500} />
